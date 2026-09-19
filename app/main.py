@@ -1,13 +1,23 @@
 from fastapi import FastAPI
+from pydantic import BaseModel, Field
 
-app = FastAPI()
+app=FastAPI()
+
+class QuestionModel(BaseModel):
+    question: str = Field(
+        ..., 
+        min_length=5, 
+        max_length=500, 
+        description="The query string sent to the AI support agent."
+    )
+    
+
 
 @app.get("/health")
-async def get_health():
+async def health_check():
     return {"status": "healthy"}
 
 @app.post("/ask")
-async def ask_question(question: str):
-    # Placeholder for processing the question and generating a response
-    response = f"You asked: {question}. This is a placeholder response."
-    return {"response": response}
+async def ask_question(Question: QuestionModel):
+    
+    return {"response": "This is a placeholder response.", "question": Question.question, "status": "success"}

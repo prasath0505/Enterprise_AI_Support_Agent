@@ -1,4 +1,4 @@
-from loader import load_documents
+from app.rag.loader import load_documents
 def chunk_text(document, chunk_size=500, overlap=50):
     chunks = []
     text = document["content"]

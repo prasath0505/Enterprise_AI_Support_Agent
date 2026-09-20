@@ -1,0 +1,27 @@
+Document ID: KB-NET-004
+Title: Corporate Virtual Private Network (VPN) Access and Troubleshooting Guidelines
+Classification: Internal Corporate Use Only
+Category: Network & Connectivity
+Effective Date: January 1, 2026
+
+1.0 OVERVIEW
+Remote access to the secure enterprise network environment is strictly regulated to prevent data leakage and malicious lateral movement. This document outlines connectivity protocols and standard remediation workflows for remote workers experiencing network disruption.
+
+2.0 GATEWAY STABILITY AND CONFIGURATION
+Employees must connect to the primary regional gateway nearest to their physical location to minimize packet latency. The authoritative gateway address is ://enterprise.com. Remote users must maintain an underlying residential or public internet connection with a minimum baseline throughput of 10 Mbps down and 5 Mbps up to sustain stable tunnels.
+
+3.0 MULTI-FACTOR AUTHENTICATION REMEDIATION
+If VPN authentication fails, the failure is typically traced to out-of-sync multi-factor cryptographic timestamps or credential mismatch. Ensure your mobile authenticator app has an active internet or cellular signal. If a standard push notification fails to render on your screen within thirty seconds, open your enterprise authenticator app manually, view the rolling six-digit security code, and append it directly to the end of your password string in the VPN login text box without spaces.
+
+4.0 CONCURRENT DISCONNECTIONS AND SESSION DROPS
+If connection drops repeatedly during active sessions, local environment variables are usually the primary driver. The corporate network infrastructure enforces a strict maximum idle timeout limit of sixty (60) minutes; if no active network data flows over the link during this duration, the gateway terminates the tunnel. Additionally, double-check that your home network is not operating on conflicting local subnets (such as 192.168.1.x) or blocked by localized aggressive firewalls. Note that local network peripherals, including smart home speakers and residential network printers, are intentionally unreachable via split-tunneling safety rules while the secure VPN tunnel remains active.
+
+5.0 LIFECYCLE COMPLIANCE
+The required VPN client version currently mandated across all corporate endpoints is GlobalConnect Client v6.2.4 or higher. Endpoint compliance scanners evaluate your local version status automatically during every hand-shake attempt. Outdated local applications will be denied access to the edge router and redirected to an automated patch deployment server.
+
+6.0 SUBMITTING AN INCIDENT ESCALATION
+Contact IT support when self-remediation protocols fail to resolve your network block, or if you suspect an underlying hardware fault with your company-issued device. Ensure you capture a screenshot or copy the exact numeric error log output string from the client interface before reaching out to the network operations desk.
+
+Network Support Email: vpn-support@enterprise.com
+Slack Channel: #it-vpn-triage
+Emergency Phone: [Link Text](tel:+1-800-555-0188)

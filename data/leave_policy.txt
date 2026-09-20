@@ -1,0 +1,26 @@
+Document ID: HR-POL-010
+Title: Global Employee Leave Entitlements and Attendance Policy
+Classification: Internal Corporate Use Only
+Category: Human Resources (HR)
+Effective Date: January 1, 2026
+
+1.0 PURPOSE AND SCOPE
+This corporate policy framework establishes equitable benchmarks, compliance structures, and administrative steps for tracking paid and unpaid time off. It applies across all corporate entities to ensure operational continuity while supporting healthy work-life balance.
+
+2.0 ACCRUAL METRICS
+Employees are entitled to twenty (20) business days of paid annual leave per calendar year, which accumulates incrementally at a consistent monthly rate of 1.66 days. In addition to regular vacation allocations, full-time workers receive ten (10) dedicated days of sick and casual leave on January 1st to address short-term illnesses, medical evaluations, or sudden personal obligations. A maximum threshold of five (5) unused annual leave days can be carried forward into the subsequent calendar year; any extra accrued balances above this five-day limit expire automatically on December 31st without financial compensation.
+
+3.0 SYSTEM SCHEDULING PROTOCOLS
+Leave requests must be submitted using the self-service HR Portal at https://enterprise.corp. To give business units sufficient time to adjust resources and preserve operational timelines, planned vacation requests exceeding three consecutive days must be logged inside the system at least two (2) full weeks prior to the intended start date. 
+
+4.0 APPROVAL WORKFLOW CHAINS
+Manager approval is required for all annual leave requests before taking time off. The automated system routes requests directly to your supervisor's queue. While managers make every effort to accommodate employee preferences, they reserve the right to deny requests during high-volume periods or major project deadlines. Taking time off without formal system approval will be marked as an unauthorized absence and may trigger disciplinary review.
+
+5.0 COMPASSIONATE AND EMERGENCY LEAVE
+Emergency leave scenarios—such as unexpected critical family illnesses, household disasters, or sudden accidents—bypass the standard two-week advance notification window. In these situations, employees must notify their immediate supervisor via text, phone call, or email as early as possible on the first morning of their absence.
+
+6.0 EXTENDED MEDICAL AND RETROACTIVE REPORTING
+For unexpected medical leave that lasts longer than three (3) consecutive business days, employees must upload an official medical certificate signed by a licensed practitioner directly to the HR portal. All emergency absences must be retroactively updated and submitted in the HR software within forty-eight (49) hours of returning to work to ensure payroll remains accurate.
+
+Human Resources Advisory Group: hr-benefits@enterprise.com
+HR Systems Helpline: Ext. 5500
